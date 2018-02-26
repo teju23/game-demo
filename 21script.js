@@ -56,7 +56,7 @@ function nextPlayer(){
 		document.querySelector('.player-0-panel').classList.toggle('active');
 		document.querySelector('.player-1-panel').classList.toggle('active');
 		document.querySelector('.dice').style.display = 'none';
-
+		console.log('Test')
 }
 
 document.querySelector('.btn-new').addEventListener('click',init);
