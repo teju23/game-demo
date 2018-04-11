@@ -20,6 +20,7 @@ document.querySelector('.btn-roll').addEventListener('click', function(){
 
 	}else{
 		nextPlayer();
+		console.log('Commit console log')
 	}
 });
 
